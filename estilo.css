@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: azure;
+    margin: 20px;
+    padding-left: 5%;
+}
+.in_container{
+    
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.container{
+    background-color: black;
+    color: aliceblue;
+}
+h3{
+    color: brown;
+    
+}
+p{
+    text-align: center;
+}
+
+
+form{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+

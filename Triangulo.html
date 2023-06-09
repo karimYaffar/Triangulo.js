@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel = "Stylesheet"  href = "./estilo.css"/>  
+    <script src="./java.js"></script>
+</head>
+<body>
+  
+    
+    <form action="#" target="_blank" method= "get" name="login" id="login"> 
+        <fieldset>
+            <legend> Calculadora</legend>
+           
+            <div class = "container"> 
+                <div class="in_container">
+                    <h2> Triangulo.js</h2>
+               
+                   <table>
+                    <tr>
+                        <td>
+                            <input type="text "  placeholder="valor 1" id="v1" onblur="cap1()"/>         
+                            <input type="text "  placeholder="valor 2" id="v2" onblur="cap2()" />     
+                            <input type="text" placeholder="Valor 3" id="v3" onblur="cap3()"/>           
+                       
+                        </td>
+   
+                        
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" value="Area" onclick="area()"/>   
+                            <input type="button" value="perimetro" onclick="perimetro()"/>
+                            <input type="button" value="semiperimetro" onclick="semiperimetro()"/> 
+                            <input type="button" value="Triangulo" onclick="tipost()"/> 
+                        </td>
+                    
+                    
+                    </tr>
+                    <td>
+                        <input type="button" value="CT"  class="BTN" onclick="eliminartodo()"/>
+                        <input type="button" value="C1"  class="BTN" onclick="eliminar1()"/>
+
+                    </td>
+                     
+                   </table>
+    
+            </div>
+            <div id="style"> </div>
+        </div>     
+            </fieldset>  
+        </form>
+    <footer>
+        <p>Actividad con js</p>
+        <img src ="./TRIANGULO.jpeg" alt="Triangu" width="150" id="img">
+    </footer>
+    
+</body>
+</html>
